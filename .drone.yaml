@@ -6,3 +6,7 @@ steps:
   image: alpine:slim
   commands:
     - echo "Hello, world!"
+
+trigger:
+  branch:
+    - master
