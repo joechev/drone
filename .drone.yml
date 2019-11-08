@@ -4,7 +4,7 @@ type: docker
 
 steps:
 - name: test
-  image: alpine:slim
+  image: alpine:latest
   commands:
     - echo "Hello, world!"
 
