@@ -12,5 +12,4 @@ trigger:
   event:
     - pull_request
   actions:
-    include:
-      - closed
+    - merged
