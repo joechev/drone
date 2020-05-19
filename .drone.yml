@@ -11,5 +11,4 @@ steps:
 trigger:
   event:
     - pull_request
-  actions:
-    - merged
+  action: merged
