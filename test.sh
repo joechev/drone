@@ -8,6 +8,7 @@ set -o pipefail
 
 main() {
     printenv | grep DRONE
+    echo $(git show-ref --hash refs/remotes/origin/develop)
 }
 
 main
